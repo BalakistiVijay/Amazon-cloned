@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar {
+    height: 70px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 110px;
+    margin-left: -25px;
+    cursor: pointer;
+
+}
+.border{
+    border: 2px solid transparent;
+    height: 65px;
+
+}
+.border:hover{
+    border: 2px solid white;
+   
+}
+.logo{
+    background-image: url(./images/amazon_logo.png);
+    background-size: cover;
+    height: 60px;
+    width: 110%;
+    justify-content: center;
+    top: 10px;
+}
+.nav-address{
+    margin-left: -18px;
+    justify-content: center;
+    cursor: pointer;
+}
+.location{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 23px;
+    margin-top: 15px;
+}
+.Map{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+    justify-content: center;
+    margin-left: -15px;
+    margin-top: 0px;
+    
+}
+.nav-search{
+    display: flex;
+    
+    width: 750px;
+    height: 41px;
+    margin-left: -15px;
+    border: 1px solid black;
+}
+.nav-search:hover{
+    border: 1px solid rgb(247, 246, 243);
+    border-radius: 7px;
+}
+.search-select{
+    width: 60px;
+    height: 38px ;
+    color: #282929;
+    background-color: #d3d6d6;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 2px solid Transparent;
+    margin-top: 1px;
+    
+    
+}
+.search-input{
+    height:33px ;
+    color: #0f1313;
+    width: 640px;
+    margin-top: 1px;
+    border: 2px solid #eae6e6;
+}
+.image-search{
+    margin-top: 4.5px;
+    margin-left: -3px;
+}
+.image-camera{
+    margin-top: 5px;
+    margin-left: -30px;
+}
+.search-icon{
+   width: 50px;
+   height:39px ;
+   margin-top: 0.4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   background-color: #febd69;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+.nav-lang{
+    
+    height: 41px;
+    width: px;
+    display: flex;
+    background: none;
+    border: none;
+}
+.lang-select{
+    width: 80px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   border: none;
+   background: none;
+   color: #fff ;
+   font-size: x-large;
+}
+.nav-menus a{
+    color: #0f1313;
+    font-size:small;
+}
+.nav-signin{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.nav-first{
+    font-size: 0.8rem;
+}
+.nav-second{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.nav-Return{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    cursor: pointer;   
+}
+.nav-cart{
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.8s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    left: 50px;
+    margin-left: 20px;
+    margin-top: -250px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+    padding: 5px 2px;
+    position: relative;
+}
+.smallcards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: -110px;
+    margin-top: -45px;
+    
+}
+
